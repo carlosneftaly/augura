@@ -1,0 +1,22 @@
+name: 'teste'
+output_dir: docs
+output:
+  html_document:
+    css: style.css
+    theme: cosmo
+    df_print: paged
+    lib_dir: site_libs
+    self_contained: no
+    highlight: textmate
+    include:
+      after_body: footer.md
+    toc: true
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+     
+navbar:
+  title: Análisis de datos de experimentos agrícolas con R 
+  left:
+  -text: Antes de empezar
+   href: 00-Intro.html
